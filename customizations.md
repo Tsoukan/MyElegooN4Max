@@ -5,7 +5,7 @@ This the configuration for my **Elegoo Neptune 4 Max**.  It includes the modifie
 ## Background
 After having my customized configuration wiped out after firmware updates I have moved my customizations to the sub-directory `Custom_Macros` in the `klipper_config` directory. The customizations are logically grouped in seperate `.cfg` and `.conf` files for easier management.  
 ## Usage
-To implement the customizations in this way create a sub directory called `Custom_Macros` in the `klipper_config` directory and copy the `.cfg` and `.conf` files to it and modify the `printer.cfg` and `moonraker.conf` files as appropriate.  You only need to modify the file(s) where you are doing customizations.  If a customization is causing problems simply appending a .txt to the end of the filename .cfg or .conf file and restarting/rebooting will remove it from the configuration.
+To implement the customizations in this way create a sub directory called `Custom_Macros` in the `klipper_config` directory and copy the `.cfg` and `.conf` files to it and modify the `printer.cfg` and `moonraker.conf` files as appropriate.  You only need to modify the file(s) where you are doing customizations.  If a customization is causing problems simply appending a .txt to the end of the filename .cfg or .conf file and restarting/rebooting will remove it from the configuration.    Also there may be some addtional component needed for things to work.  I have commented most of the configuration files with pointer to the prerequiste items, please review the configuration files carefully to avoid issues.
 
 To add the Klipper customizations, add the following lines to the top of the `printer.cfg` file immediately after the initial comment block.
 ```
