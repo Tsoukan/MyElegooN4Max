@@ -52,7 +52,7 @@ ok
 
 5. Cut a strip of paper ~2.5CM/1" wide
 6. From the touch screen click level, do the `z-offset` and `automatic leveling` only, do not do the auxiliary leveling, it has been replace by the `SCREWS_TILT_CALCULATE`.
-For the paper test, using the strip of paper, place it under the print nozzle lower it as you did in step 2(iii), this time you want to be able to pull the paper, it move with a fair bit of resistance, but it should buckle when you push it back.  Don't pull the paper out from under the nozzle, just pull and push a couple of CM/", if it does come out you may need to raise the printhead a bit to get it back under.
+For the z-offset do a paper test (note that since we are doing it with everything hot the nozzle will need to be much closer to the bed since we don't have to account for thermal expansion), using the strip of paper, place it under the print nozzle lower it as you did in step 2(iii), this time you want to be able to pull the paper, it move with a fair bit of resistance, but it should buckle when you push it back.  Don't pull the paper out from under the nozzle, just pull and push a couple of CM/", if it does come out you may need to raise the printhead a bit to get it back under.  Once the zoffset is set do the automatic leveling.
 7. **Click the save icon in the upper right hand corner**.  The printer will restart.
 8. You are now ready to proceed with fine tuning.  At this point you can try your first print, you will still need to tweak the z-offset a bit for a good first layer but the printer should be capable of producing a halfway decent print at this point.
 ### Fine tuning
